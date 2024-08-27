@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NYISO Electricity Data</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <h1>NYISO Electricity Data</h1>
+    <div id="data-container">
+        <!-- Data from the API will be loaded here -->
+    </div>
+    <script>
+        fetch('/api/load/moving-average')
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('data-container').innerText = JSON.stringify(data, null, 2);
+            });
+    </script>
+</body>
+</html>
