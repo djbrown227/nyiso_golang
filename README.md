@@ -67,10 +67,6 @@ nyiso_golang/
 ## Contributing
 
 Contributions are welcome! Please fork this repository, make your changes, and submit a pull request.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 ```
 
 This README provides a clear overview of your project, its features, how to set it up, and how to run it, which will be useful for potential employers reviewing your portfolio.
