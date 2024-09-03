@@ -1,6 +1,3 @@
-Here's a README file in Markdown format for your GitHub project:
-
-```markdown
 # NYISO Electricity Data Analysis
 
 This repository contains a Go-based project focused on analyzing New York Independent System Operator (NYISO) electricity load data. The project includes server-side APIs for various data analysis tasks, such as calculating moving averages, detecting anomalies, generating lag features, and computing the rate of change.
@@ -19,7 +16,6 @@ This repository contains a Go-based project focused on analyzing New York Indepe
 
 ## Project Structure
 
-```
 nyiso_golang/
 │
 ├── pkg/
